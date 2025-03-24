@@ -9,3 +9,7 @@ The taxi business is an extremely lucrative one, depending on where it is based,
 This project uses a regression model to predict taxi demand, the model measures number of rides at any given time or location and uses supervised learning to analyze historical trip records and devise potential future demand patterns.
 ## Data Acquisition
 The dataset used for this project is the NYC Yellow Taxi Trip Dataset from Kaggle. The data includes timestamps, pickup and drop off coordinates, trip durations, fare amounts and passenger counts. This provides the necessary critical information to train the requisite predictive models to judge taxi usage patterns.
+## Data Preprocessing/Preparation
+I had to complete several steps to ensure that the dataset was ready to use for modeling purposes. I first took in the data into a separate dataframe, I then analyzed the data to check for, and remove, all null values from the dataset. I then went ahead and removed all duplicates from the data to ensure that the results of the modeling process were not skewed by duplicate data. For this purpose, I used these specific commands df.drop_duplicates(inplace=True) and df.dropna(inplace=True).
+I then split the cleaned dataset into a training and testing set to use for modeling using the train_test_split(X, y, test_size=0.2, random_state=42) method.
+## Modeling
