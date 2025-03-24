@@ -4,4 +4,5 @@ This dataset is taken from Kaggle and includes data taken from the NYC Taxi and 
 
 ## Problem Statement 
 
-The taxi business is an extremely lucrative one, depending on where it is based, taxis end up being one of the most important modes of transportation. It is especially important for firms in the business to optimize the location at which they have the most availability to ensure they retain the largest number of customers.
+The taxi business is an extremely lucrative one, depending on where it is based, taxis end up being one of the most important modes of transportation. It is especially important for firms in the business to optimize the location at which they have the most availability to ensure they retain the largest number of customers. To this end, understanding taxi demand patterns is crucial for optimizing the allocation of resources. This project uses predictive modeling techniques that consider factors such as time, precise location to determine the ideal conditions to maximize operational availability, and by extension, revenue.
+## Model Outcomes or Predictions
