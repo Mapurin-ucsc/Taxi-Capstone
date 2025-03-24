@@ -9,4 +9,3 @@ The taxi business is an extremely lucrative one, depending on where it is based,
 This project uses a regression model to predict taxi demand, the model measures number of rides at any given time or location and uses supervised learning to analyze historical trip records and devise potential future demand patterns.
 ## Data Acquisition
 The dataset used for this project is the NYC Yellow Taxi Trip Dataset from Kaggle. The data includes timestamps, pickup and drop off coordinates, trip durations, fare amounts and passenger counts. This provides the necessary critical information to train the requisite predictive models to judge taxi usage patterns.
-![alt text](/Users/ramakrishnamaladi/Desktop/Resume_Projects/Taxi-Capstone/Images/Columns.png)
