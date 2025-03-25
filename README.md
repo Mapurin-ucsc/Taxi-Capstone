@@ -13,5 +13,8 @@ The dataset used for this project is the NYC Yellow Taxi Trip Dataset from Kaggl
 I had to complete several steps to ensure that the dataset was ready to use for modeling purposes. I first took in the data into a separate dataframe, I then analyzed the data to check for, and remove, all null values from the dataset. I then went ahead and removed all duplicates from the data to ensure that the results of the modeling process were not skewed by duplicate data. For this purpose, I used these specific commands df.drop_duplicates(inplace=True) and df.dropna(inplace=True).
 I then split the cleaned dataset into a training and testing set to use for modeling using the train_test_split(X, y, test_size=0.2, random_state=42) method. This made it so that 20% of the dataset was used for testing and the remaining 80% was used for the training process.
 ## Modeling
-For the modeling part of this project, I first created a baseline linear regression model using the LinearRegression() function. I then fit the baseline model with the X_train and y_train sets and finally used the mode.predict() function to generate some predictions upon completion. I used the root_mean_squared_error function on the test set and the predicted values to determine the rmse value which was determined to be 8.87, which was relatively low given the context of the dataset. 
+For the modeling part of this project, I first created a baseline linear regression model using the LinearRegression() function. I then fit the baseline model with the X_train and y_train sets and finally used the mode.predict() function to generate some predictions upon completion. 
+
+## Model Evaluation
+I used the root_mean_squared_error function on the test set and the predicted values to determine the rmse value which was determined to be 8.87, which was relatively low given the context of the dataset. 
  
